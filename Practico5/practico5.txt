@@ -1,0 +1,85 @@
+ssh-keygen -t rsa -b 1024 -c "estela231092@gmail.com"
+ssh-keygen -t rsa -b 1024 -c estela231092@gmail.com
+ssh-keygen -b 1024  -t rsa  -c estela231092@gmail.com
+ssh-keygen -b 1024  -t rsa  -C estela231092@gmail.com
+ls .ssh
+cat .ssh/id_rsa.pub 
+git clone git@github.com:Estela0909/SistemasOperativos.git
+sudo apt install git
+git clone git@github.com:Estela0909/SistemasOperativos.git
+ls
+cd SistemasOperativos
+ls
+cd Practico3/
+ls
+cd ..
+mkdir Practico5
+sudo apt install mysql-server -y
+sudo mysql_secure_installation
+mysql -u root -pToor
+mysql -u root -ptoor
+mysql -u root -p
+mysql -u root -pToor -h localhost
+sudo mysql_secure_installation
+mysql -u root -p
+sudo mysql_secure_installation
+mysql -u root -p
+sudo mysql_secure_installation
+sudo mysql
+mysql -u root -p
+FLUSH PRIVILEGES;
+sudo mysql
+sudo mysql_secure_installation
+sudo apt-get purge mysql-server
+sudo apt install mysql-server 
+sudo mysql secure_installation
+sudo su
+sudo apt-get purge mysql-server
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get clean
+sudo apt install mysql-server 
+sudo mysql_secure_installation
+sudo su
+sudo mysql_secure_installation
+sudo mysql
+mysql
+mysql -u root
+mysql -u root -p
+sudo -i mysql <<-EOSQL
+use mysql;
+update user set plugin="mysql_native_password" where User='root';
+flush privileges;
+EOSQL
+
+sudo -i mysql <<-EOSQL
+use mysql;
+alter user 'root'@'localhost' identified with mysql_native_password by 'toor';
+flush privileges;
+EOSQL
+
+mysql
+sudo dpkg -reconfigure mysql-server
+sudo dpkg-reconfigure mysql-server
+sudo mysql
+sudo systemctl stop mysqld 
+sudo systemctl stop mysql
+mysqld_safe --skip-grant-tables &
+sudo mysqld_safe --skip-grant-tables &
+mysql -u root
+sudo cat /etc/mysql/debian.cnf 
+mysql -u -pXbGbZhzat0khV5sr
+sudo systemctl start mysql
+mysql -u -pXbGbZhzat0khV5sr
+mysql -u root -pXbGbZhzat0khV5sr
+sudo cat /etc/mysql/my.cnf
+sudo cat /etc/mysql/mysql.cnf
+sudo cat /etc/mysql/conf.d
+sudo cat /etc/mysql/conf.d/mysql.cnf 
+sudo dpkg --get-selections | grep mysql
+sudo dpkg-reconfigure mysql-server-5.7
+sudo dpkg-reconfigure --force  mysql-server-5.7
+sudo apt-get purge mysql-client-5.7 mysql-client-core-5.7 mysql-common mysql-server mysql-server-5.7 mysql-server-core-5.7
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get clean
